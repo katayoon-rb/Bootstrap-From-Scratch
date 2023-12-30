@@ -33,7 +33,7 @@ function generateItem(topic) {
                         <h5 class="fw-bold">${topic.split('-').slice(1).join(' ').split('.')[0]}</h5>
                     </div>
                     <div class="d-grid">
-                        <a href="./${topic}.html">
+                        <a href="./${topic}">
                             <button class="btn btn-dark rounded-4 my-2">Go to Projects</button>
                         </a>
                     </div>
