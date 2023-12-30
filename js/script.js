@@ -1,6 +1,6 @@
 const topics = [
-    "02 - Fundamentals",
-    "03 - Fundamentals",
+    "02 - Fundamentals - Part One",
+    "03 - Fundamentals - Part Two",
     "04 - Dynamic Js Components",
     "05 - Mini-Project Challenges",
     "07 - Ebook Website",
@@ -29,7 +29,7 @@ function generateItem(topic) {
             <div class="card rounded-4 shadow-lg border-0 mb-3 px-2 py-3">
                 <div class="card-body">
                     <div class="p-2">
-                        <h5 class="fw-bold">${topic}</h5>
+                        <h5 class="fw-bold">${topic.split(' - ').slice(0, 2).join(' - ')}</h5>
                     </div>
                     <div class="d-grid">
                         <a href="./${topic}/index.html">
